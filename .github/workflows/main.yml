@@ -7,7 +7,8 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/action-hello@v1
+      # uses: actions/action-hello@v1
+      uses: uhrigol-mli/action-hello@v1
       with:
         who-to-greet: 'Oliver'
     # Use the output from the `hello` step
